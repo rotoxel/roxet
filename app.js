@@ -19,6 +19,10 @@ class User {
     this.user = user;
   }
   
+  setUser(user) {
+    this.user = user;
+  }
+  
   serialize() {
     return {
       user: user,
