@@ -8,6 +8,7 @@ class Server {
     this.user = user;
     this.music = music;
     this.player = player;
+    this.films = films;
   }
   
   getUser() {
