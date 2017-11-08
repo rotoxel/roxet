@@ -52,6 +52,14 @@ class Device {
 }
 
 class Method{
+  setUser(user) {
+    this.user = user;
+  }
+  
+  setUser(user) {
+    this.user = user;
+  }
+  
       
 }
 
