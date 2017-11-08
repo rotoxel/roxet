@@ -8,6 +8,7 @@ class User {
     this.music = music;
     this.player = player;
     this.films = films;
+    this.client = client.new();
   }
   
   getUser() {
