@@ -37,6 +37,7 @@ class User {
 
 class Server {
       constructor(port, ip) {
+            this.con = express.connect(ip+':'port)
       }
 }
 
