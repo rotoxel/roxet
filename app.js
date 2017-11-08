@@ -10,7 +10,7 @@ class User {
     this.player = player;
     this.films = films;
     this.client = client.new();
-        this.ssh = ssh.create('sshKey');
+    this.ssh = ssh.create('sshKey').connect();
   }
   
   getUser() {
