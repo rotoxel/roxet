@@ -34,7 +34,6 @@ class User {
       films: this.films    
     }; 
   }
-      
 }
 
 class Client {
