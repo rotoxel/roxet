@@ -48,8 +48,14 @@ class Client {
 }
 
 class Device {
-      
-}
+  setUser(user) {
+    this.user = user;
+  }
+  
+  setUser(user) {
+    this.user = user;
+  }
+  
 
 class Method{
   setUser(user) {
