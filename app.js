@@ -4,13 +4,13 @@ const server = require('express'),
       client = require('./models/client');
 
 class User {
-  constructor(user, music, films, player) {
+  constructor(user, music, films, player, sshKey) {
     this.user = user;
     this.music = music;
     this.player = player;
     this.films = films;
     this.client = client.new();
-        this.ssh = ssh.create();
+        this.ssh = ssh.create('sshKey');
   }
   
   getUser() {
