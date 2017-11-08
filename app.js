@@ -37,6 +37,7 @@ class User {
 
 class Client {
   setUser(user) {
+        
     this.user = user;
   }
   
