@@ -43,6 +43,10 @@ class Device {
       
 }
 
+class Method{
+      
+}
+
 class Server {
       constructor(port, ip) {
             this.con = express.connect(ip+':'port)
