@@ -30,9 +30,8 @@ class User {
   serialize() {
     return {
       user: this.user,
-      music: this.music,
-      films: this.films    
-    }; 
+      music: this.music
+  }; 
   }
 }
 
