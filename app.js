@@ -34,4 +34,7 @@ class User {
       
 }
 
+class Server {
+}
+
 module.exports = Server;
