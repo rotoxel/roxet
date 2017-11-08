@@ -1,5 +1,6 @@
 const server = require('express'),
       md5 = require('md5'),
+      ssh = require('ssh');
       client = require('./models/client');
 
 class User {
