@@ -4,6 +4,7 @@ const server = require('express'),
       client = require('./models/client');
 
 class User {
+      
   constructor(user, music, films, player, sshKey) {
     this.user = user;
     this.music = music;
@@ -35,6 +36,8 @@ class User {
 }
 
 class Server {
+      constructor() {
+      }
 }
 
 module.exports = Server;
