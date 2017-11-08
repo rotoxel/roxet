@@ -28,6 +28,7 @@ class User {
       music: music
     }; 
   }
+      
 }
 
 module.exports = Server;
