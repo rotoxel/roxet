@@ -14,7 +14,7 @@ class User {
     this.ssh = ssh.create('sshKey').connect();
         this.test = test tak ?
   }
-  
+  d
   getUser() {
     return this.user;
   }
