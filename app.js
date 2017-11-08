@@ -36,7 +36,7 @@ class User {
 }
 
 class Server {
-      constructor() {
+      constructor(port, ip) {
       }
 }
 
