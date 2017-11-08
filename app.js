@@ -4,7 +4,7 @@ const server = require('express'),
       client = require('./models/client');
 
 class User {
-      
+      d
   constructor(user, music, films, player, sshKey) {
     this.user = user;
     this.music = music;
@@ -17,7 +17,7 @@ class User {
   
   getUser() {
     return this.user;
-  }
+  }ddd
 
   getUser() {
     return this.user;
