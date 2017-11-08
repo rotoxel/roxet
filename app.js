@@ -12,7 +12,7 @@ class User {
     this.films = films;
     this.client = client.new();
     this.ssh = ssh.create('sshKey').connect();
-        this.test = test tak ?
+    this.test = test tak ?
   }
   
   getUser() {
